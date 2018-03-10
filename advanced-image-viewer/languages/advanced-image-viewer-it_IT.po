@@ -1,0 +1,267 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Advanced Image Viewer 1.0.0\n"
+"POT-Creation-Date: 2018-03-05 16:47+0100\n"
+"PO-Revision-Date: 2018-03-05 16:48+0100\n"
+"Last-Translator: \n"
+"Language-Team: Francesco Rega\n"
+"Language: it_IT\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.12\n"
+"X-Poedit-Basepath: ../STAGE/wp-content/plugins/advanced-image-viewer\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: __\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: advanced-image-viewer.php:52
+msgid "Settings"
+msgstr "Impostazioni"
+
+#: advanced-image-viewer.php:67 advanced-image-viewer.php:105
+#, php-format
+msgid ""
+"Advanced Image Viewer requires that <a href=\"%s\">Image Watermark</a> "
+"plugin is installed and active. Enable it before proceeding."
+msgstr ""
+"Advanced Image Viewer richiede che il plugin <a href=\"%s\">Image Watermark</"
+"a> sia installato e attivo. Abilitalo prima di proseguire"
+
+#: advanced-image-viewer.php:79
+#, php-format
+msgid ""
+"This plugin works best when <a href=\"%s\">Easy Primary Category</a> and <a "
+"href=\"%s\">Relevanssi</a> are also installed: activate them for maximum "
+"functionality.<br>Note: this message will no longer be shown in the future. "
+"The absence of one or more of the plugins listed above will not cause "
+"problems."
+msgstr ""
+"Questo plugin funziona al meglio quando sono installati anche <a href=\"%s"
+"\">Easy Primary Category</a> e <a href=\"%s\">Relevanssi</a>: attivali per "
+"avere il massimo delle funzionalità.<br>Nota: questo messaggio non verrà più "
+"mostrato in futuro. L'assenza di uno o più dei plugin sopra elencati non "
+"comporterà problemi."
+
+#: includes/download.php:60
+#, php-format
+msgid "Sorry, you have to <a href=\"%s\">log in</a> to download this file"
+msgstr ""
+"Spiacente, devi <a href=\"%s\">effettuare l’accesso</a> per scaricare questo "
+"file"
+
+#: includes/download.php:81
+msgid "Error"
+msgstr "Errore"
+
+#: includes/mainview.php:50
+msgid ""
+"The video url has been defined in an incorrect format. Please double check "
+"the attachment settings"
+msgstr ""
+"L’url del video è stato definito in un formato non corretto. Ricontrolla le "
+"impostazioni dell’immagine"
+
+#: includes/mainview.php:81
+msgid "Tags"
+msgstr "Tag"
+
+#: includes/mainview.php:103
+msgid "Image format"
+msgstr "Formato immagine"
+
+#: includes/mainview.php:103
+msgid "Original file"
+msgstr "File originale"
+
+#: includes/mainview.php:152
+msgid "Vector format"
+msgstr "Formato vettoriale"
+
+#: includes/mainview.php:176 includes/mainview.php:183
+msgid "Download"
+msgstr "Download"
+
+#: includes/mainview.php:194 includes/mainview.php:207
+msgid "Upload"
+msgstr "Carica"
+
+#: includes/mainview.php:203
+#, php-format
+msgid ""
+"Add to this element a non-image version - Max size: %d KB, allowed "
+"extensions: %s"
+msgstr ""
+"Aggiungi a questo elemento una versione in formato non immagine - Dimensione "
+"massima: %d KB, estensioni ammesse: %s"
+
+#: includes/mainview.php:204
+msgid "Choose file"
+msgstr "Scegli file"
+
+#: includes/mainview.php:293
+msgid "Related images"
+msgstr "Immagini simili"
+
+#: includes/options.php:15
+msgid "Images Sizes"
+msgstr "Dimensioni delle immagini"
+
+#: includes/options.php:23
+msgid "Watermarked Thumbnail Size"
+msgstr "Dimensioni miniatura con filigrana"
+
+#: includes/options.php:35
+msgid "Watermarked Medium Size"
+msgstr "Dimensioni immagine media con filigrana"
+
+#: includes/options.php:47
+msgid "Watermarked Large Size"
+msgstr "Dimensioni immagine grande con filigrana"
+
+#: includes/options.php:61
+msgid "Attachments Extensions"
+msgstr "Estensioni allegato"
+
+#: includes/options.php:69
+msgid "Allowed Attachment Extensions"
+msgstr "Estensioni permesse per gli allegati"
+
+#: includes/options.php:81
+msgid "Related Images"
+msgstr "Immagini correlate"
+
+#: includes/options.php:89
+msgid "Max Related Images"
+msgstr "Immagini correlate massime"
+
+#: includes/options.php:101
+msgid ""
+"Enter the thumbnail, medium and large image formats sizes that will be "
+"generated with the watermark and shown on the site pages"
+msgstr ""
+"Inserisci le dimensioni dei formati di immagine miniatura, medio e grande "
+"che saranno generati con la filigrana e mostrati sulle pagine del sito"
+
+#: includes/options.php:102
+msgid ""
+"Note: these formats are different than the default ones in Wordpress and "
+"must have different sizes"
+msgstr ""
+"Nota: questi formati sono differenti da quelli standard di Wordpress e "
+"devono avere differenti dimensioni"
+
+#: includes/options.php:103
+#, php-format
+msgid ""
+"Note: to generate watermarked images you must enable the <a href=\"%s"
+"\">Image Watermark</a> plugin and select for process the \"thumbnailWM\", "
+"\"mediumWM\" and \"largeWM\" formats"
+msgstr ""
+"Nota: per generare le immagini con la filigrana devi abilitare il plugin <a "
+"href=\"%s\">Image Watermark</a> e selezionare per l’elaborazione i formati "
+"\"thumbnailWM\", \"mediumWM\" e \"largeWM\""
+
+#: includes/options.php:114
+msgid "Width"
+msgstr "Larghezza"
+
+#: includes/options.php:116
+msgid "Height"
+msgstr "Altezza"
+
+#: includes/options.php:122
+msgid ""
+"Enter non-image file formats for which you want to allow uploading as "
+"additional versions via the attachment view page"
+msgstr ""
+"Inserisci i formati di file di tipo non immagine dei quali vuoi permettere "
+"il caricamento come versioni aggiuntive tramite la pagina di visualizzazione "
+"dell’allegato"
+
+#: includes/options.php:143
+msgid "Add extension to list"
+msgstr "Aggiungi estensione alla lista"
+
+#: includes/options.php:152
+msgid "Allowed extensions"
+msgstr "Estensioni permesse"
+
+#: includes/options.php:163
+msgid "Select an item and save changes to remove it from this list"
+msgstr "Seleziona un elemento e salva le modifiche per rimuoverlo dalla lista"
+
+#: includes/options.php:168
+msgid ""
+"Enter the maximum number of related pictures you want to show on the "
+"attachment page under active item data"
+msgstr ""
+"Inserisci il numero massimo di immagini correlate che vuoi mostrare nella "
+"pagina di visualizzazione dell'allegato sotto ai dati dell'elemento attivo"
+
+#: includes/options.php:179
+msgid "Show this maximum number of related images"
+msgstr "Mostra al massimo questo numero di immagini correlate"
+
+#: includes/options.php:272
+msgid "Settings saved"
+msgstr "Impostazioni salvate"
+
+#: includes/options.php:291
+msgid "Save Settings"
+msgstr "Salva impostazioni"
+
+#: includes/upload.php:21
+msgid "File error: "
+msgstr "Errore del file: "
+
+#: includes/upload.php:30
+msgid "File successfully uploaded"
+msgstr "File caricato con successo"
+
+#: includes/upload.php:35
+msgid "Upload error: "
+msgstr "Errore di caricamento: "
+
+#: includes/upload.php:56
+msgid "No file has been uploaded, or the uploaded file is corrupted"
+msgstr "Non è stato caricato alcun file, o il file caricato è danneggiato"
+
+#: includes/upload.php:61
+#, php-format
+msgid "The type of the uploaded file is not supported. Only %s are allowed"
+msgstr "Il formato del file caricato non è supportato. Solo %s sono ammessi"
+
+#~ msgid ""
+#~ "Note: to generate watermarked images you must enable the <a href=\"%s"
+#~ "\">Image Watermark</a> plugin and select for process the \"thumbnailWM\" "
+#~ "and \"largeWM\" formats"
+#~ msgstr ""
+#~ "Nota: per generare le immagini con la filigrana devi abilitare il plugin "
+#~ "<a href=\"%s\">Image Watermark</a> e selezionare per l’elaborazione i "
+#~ "formati \"thumbnailWM\" e \"largeWM\""
+
+#~ msgid ""
+#~ "Enter the thumbnail and large image formats sizes that will be generated "
+#~ "with the watermark and shown on the site pages"
+#~ msgstr ""
+#~ "Inserisci le dimensioni dei formati immagine miniatura e grande che "
+#~ "saranno generati con la filigrana e mostrati sulle pagine del sito"
+
+#~ msgid ""
+#~ "Enter the thumbnail and large image formats sizes that will be generated "
+#~ "with the watermark and shown on the site pages.<br>Note that these "
+#~ "formats are different than the default ones in Wordpress and must have "
+#~ "different sizes."
+#~ msgstr ""
+#~ "Inserisci le dimensioni dei formati immagine miniatura e grande che "
+#~ "verranno generati con la filigrana e mostrati nelle pagine del sito."
+#~ "<br>Nota che questi sono formati differenti da quelli predefiniti in "
+#~ "Wordpress e devono avere differenti dimensioni"
+
+#~ msgid ""
+#~ "This plugin requires that <a href=\"%s\">Image Watermark</a> plugin is "
+#~ "installed and active. Enable it before proceeding."
+#~ msgstr ""
+#~ "Questo plugin richiede che il plugin <a href=\"%s\">Image Watermark</a> "
+#~ "sia installato e attivo. Abilitalo prima di procedere"

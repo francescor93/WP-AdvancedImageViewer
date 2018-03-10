@@ -1,0 +1,230 @@
+/* ALTEZZA MASSIMA DEL LOGO */
+.custom-logo-link img {
+    max-height: 100px !important;
+}
+
+/* DISTANZA FRA LA BARRA DI NAVIGAZIONE E IL TITOLO DELL'ARTICOLO */
+@media screen and (min-width: 48em) {
+    .site-content {
+        padding: 2.5em 0 0;
+    }
+}
+
+/* STILE DEI SUGGERIMENTI AUTOMATICI DI RICERCA */
+.awesomplete {
+    display: initial !important;
+}
+.awesomplete > input[type=search] {
+    width: 100% !important;
+}
+
+/* STILE DEL FORM DI RICERCA */
+.search-form .search-submit {
+    bottom: unset !important;
+}
+.search-form select {
+    width: 100%;
+}
+
+/* LARGHEZZA DEL CONTENITORE */
+@media screen and (min-width: 48em) {
+    .wrap {
+        max-width: 1200px;
+    }
+    .blog:not(.has-sidebar) #primary article, .archive:not(.page-one-column):not(.has-sidebar) #primary article, .search:not(.has-sidebar) #primary article, .error404:not(.has-sidebar) #primary .page-content, .error404.has-sidebar #primary .page-content, body.page-two-column:not(.archive) #primary .entry-content, body.page-two-column #comments {
+        float: unset;
+        width: 100%;
+    }
+}
+
+/* DISPOSIZIONE ORIZZONTALE FLEX DELL'AREA DI VISUALIZZAZIONE ALLEGATO */
+#attachment-area {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* LARGHEZZA DELLE DUE COLONNE NELL'AREA DI VISUALIZZAZIONE ALLEGATO */
+#attachment-area > * {
+    flex-basis: 100%;
+}
+
+/* LARGHEZZA DI OGNI COLONNA SU SISTEMI DESKTOP */
+@media screen and (min-width:768px) {
+    #attachment-area > #imgdata {
+        flex-basis: 60%;
+    }
+    #attachment-area > #imgmanagement {
+        flex-basis: 40%;
+    }
+    #imgmanagement {
+        padding-left: 10px;
+    }
+}
+
+/* STILE DEI TITOLI */
+@media screen and (min-width: 30em) {
+    h1.attachment-title {
+        font-size: 1.6rem;
+    }
+    #aiv-attachment h2 {
+        font-size: 1.4rem;
+    }
+    #aiv-attachment h3 {
+        font-size: 1.2rem;
+        margin: 1.5em 0 .3em;
+    }
+}
+
+/* DIMENSIONI DEI VIDEO */
+.videowrapper {
+	position: relative;
+	padding-bottom: 56.25%;
+	padding-top: 25px;
+	height: 0;
+}
+.videowrapper iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+/* STILE DEI TAG */
+.tags-links a, .entry-footer .tags-links a {
+    background-color: #ccc;
+    padding: 5px 10px;
+    border-radius: 6px;
+    display: inline-block;
+    margin: 3px;
+    transition: 0.3s all ease;
+    box-shadow: initial;
+}
+.tags-links a:hover, .tags-links a:focus, .entry-footer .tags-links a:hover, .entry-footer .tags-links a:focus {
+    background-color: #bbb;
+    box-shadow: initial;
+}
+.tags-links p {
+    margin: 0;
+}
+
+/* STILE DELL'AREA DI GESTIONE DEI FORMATI */
+#imgmanagement {
+    text-align: right;
+}
+#imgmanagement h2 {
+    padding-top: 0;
+}
+#downloadfile h3 {
+    background-color: #ccc;
+    padding: 5px 10px;
+    margin: .75em 0 0;
+}
+#downloadfile input[type="submit"] {
+    margin-top: 10px;
+}
+
+/* STILE DEI RADIO DI SELEZIONE DEL FORMATO */
+#downloadfile label {
+    display: block;
+    position: relative;
+    cursor: pointer;
+    font-weight: unset;
+    margin: 1px 0;
+    padding-left: 25px;
+}
+#downloadfile label input {
+    position: absolute;
+    opacity: 0;
+}
+#downloadfile label span {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 22px;
+    width: 22px;
+    background-color: #eee;
+    border-radius: 50%;
+    transition: 0.2s all ease;
+}
+#downloadfile label:hover input ~ span {
+    background-color: #bbb;
+}
+#downloadfile label input:checked ~ span {
+    background-color: #222;
+}
+#downloadfile label span:after {
+    content: "";
+    position: absolute;
+    display: none;
+    top: 7px;
+    left: 7px;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: white;
+}
+#downloadfile label input:checked ~ span:after {
+  display: block;
+}
+
+/* STILE DELL'INPUT DI SELEZIONE FILE */
+#aiv_file {
+    width: 0.1px;
+	height: 0.1px;
+	opacity: 0;
+	overflow: hidden;
+	position: absolute;
+	z-index: -1;
+}
+
+/* STILE DELLA LABEL DELL'INPUT DI SELEZIONE FILE */
+#aiv_label {
+    background-color: #222;
+    border: 0;
+    border-radius: 2px;
+    box-shadow: none;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-size: .875rem;
+    font-weight: 800;
+    line-height: 1;
+    padding: 1em 2em;
+    text-shadow: none;
+    transition: 0.2s all ease;
+}
+#aiv_label:hover {
+    background: #767676;
+}
+#aiv_submit {
+    padding: 1em 2em;
+}
+
+/* STILE DELLE IMMAGINI CORRELATE */
+.related {
+    width: 160px;
+    height: 160px;
+    margin-bottom: 2px;
+    margin-right: 2px;
+    position: relative;
+    display: inline-block;
+}
+.related span {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    color: white;
+    background-color: rgba(0,0,0,.75);
+    padding: 2px;
+    overflow: hidden;
+    width: 100%;
+    max-height: 100%;
+    text-align: center;
+    opacity: 0;
+    transition: 0.6s all ease;
+}
+.related:hover span {
+    bottom: 40%;
+    opacity: 1;
+}
